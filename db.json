@@ -1,0 +1,60 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "model": "VTX 5000",
+      "brand": "Peugeot",
+      "type": "VTT",
+      "size": "XL",
+      "price": "1200"
+    },
+    {
+      "id": 2,
+      "model": "VTX 200",
+      "brand": "Peugeot",
+      "type": "COURSE",
+      "size": "SM",
+      "price": "700"
+    },
+    {
+      "id": 3,
+      "model": "KL Top 5500",
+      "brand": "Tesla",
+      "type": "VTC",
+      "size": "XXL",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "model": "KL Top 4000",
+      "brand": "Tesla",
+      "type": "VTC",
+      "size": "XL",
+      "price": 4000
+    },
+    {
+      "id": 5,
+      "model": "Terminator",
+      "brand": "Décathlon",
+      "type": "CROSS",
+      "size": "VSM",
+      "price": 1250
+    },
+    {
+      "model": "Speedy 3000",
+      "brand": "Google",
+      "type": "COURSE",
+      "size": "XL",
+      "price": "3500",
+      "id": 6
+    },
+    {
+      "model": "Banzai 500",
+      "brand": "Nissan",
+      "type": "BMX",
+      "size": "XL",
+      "price": "850",
+      "id": 7
+    }
+  ]
+}
