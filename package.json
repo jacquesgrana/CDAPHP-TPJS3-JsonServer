@@ -15,9 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^0.17.3"
-  },
-  "devDependencies": {
-    "netlify-lambda": "^3.3.6"
+    "json-server": "^0.17.3",
+    "netlify-lambda": "^2.0.16"
   }
 }
