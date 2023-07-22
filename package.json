@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "npm run build:functions",
+    "build:functions": "npx netlify-lambda build functions",
+    "serve": "json-server --watch db.json --port 4250",
+    "deploy": "npm run build && netlify deploy --prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^0.17.3"
+    "express": "^4.17.1",
+    "json-server": "^0.17.3",
+    "netlify": "^13.1.10"
   }
 }
