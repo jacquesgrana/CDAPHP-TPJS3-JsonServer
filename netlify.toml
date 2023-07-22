@@ -1,8 +1,0 @@
-[build]
-command = "npm run build"
-functions = "netlify/functions-build"
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/:splat"
-  status = 200

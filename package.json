@@ -2,20 +2,15 @@
   "name": "tpjsexo3-server",
   "version": "1.0.0",
   "description": "",
-  "main": "netlify/functions/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node netlify/functions/index.js",
-    "build": "npm run build:functions",
-    "build:functions": "netlify-lambda build netlify/functions",
-    "serve": "json-server --watch db.json --port 4250",
-    "deploy": "npm run build && netlify deploy --prod"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^0.17.3",
-    "netlify-lambda": "^2.0.16"
+    "json-server": "^0.17.3"
   }
 }
